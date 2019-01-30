@@ -19,7 +19,7 @@ public:
     Place&operator=(const Place& C){
         x=C.x;
         y=C.y;
-        //return *this;
+        return *this;
     }
     void Set(int x,int y){
         this->x=x;this->y=y;
